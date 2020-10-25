@@ -22,6 +22,7 @@ h4 {
   padding-top: 7rem;
   text-shadow: .05rem .05rem .05rem rgba(0,0,0,.15);
 }
+
 h1 {
   color: white;
   font-weight: 200;
@@ -162,12 +163,32 @@ ul.social .svg-inline--fa:hover {
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+  
+  .fa-stack.fa-2x {
+    font-size: 2rem;
+  }
 
+  .fixed-background {
+    padding: 10rem 0;
+  }
 }
 
 /* Devices under 992px (xl) */
 @media (max-width: 991.98px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .fa-stack.fa-2x {
+    font-size: 1.7rem;
+  }
 
+  .fixed-background {
+    padding: 8rem 0;
+  }
 }
 
 /* Devices under 768px (md) */
