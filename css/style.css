@@ -80,8 +80,18 @@ h1 {
 }
 /*=== CONTENT STYLE ===*/
 
+.fa-asterisk {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
 
+h3 {
+  font-weight: 300;
+}
 
+.w-100 {
+  box-shadow: .2rem .2rem .2rem rgba(0,0,0,.1);
+}
 /*=== FIXED BACKGROUND IMG ===*/
 
 
