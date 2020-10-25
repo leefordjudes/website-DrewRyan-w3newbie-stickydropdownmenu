@@ -6,12 +6,51 @@ body {
 
 /*=== LANDING GRADIENT ===*/
 
-
+.landing {
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, #1DA1F2, #981CEB);
+}
 
 /*=== HEADINGS & ICONS ===*/
 
+h4 {
+  color: white;
+  font-weight: 200;
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+  padding-top: 7rem;
+  text-shadow: .05rem .05rem .05rem rgba(0,0,0,.15);
+}
+h1 {
+  color: white;
+  font-weight: 200;
+  font-size: 3rem;
+  letter-spacing: .2rem;
+  text-shadow: .05rem .05rem .05rem rgba(0,0,0,.15);
+  padding: 1.8rem 0;
+}
 
+.home {
+  padding-bottom: 7rem;
+}
 
+.fa-stack.fa-2x {
+  font-size: 2.3rem;
+}
+
+.fa-stack-2x {
+  opacity: .15;
+}
+
+.fa-stack-1x {
+  opacity: .7;
+}
+
+.fa-globe-americas {
+  opacity: 1;
+  transform: scale(1.25);
+}
 /*=== NAVIGATION ===*/
 
 
